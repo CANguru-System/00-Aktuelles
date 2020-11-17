@@ -22,7 +22,9 @@ Mit den 5 Lichtdecodern kann ich 5*16=80 LED ansteuern. Das reicht für viel Lic
 Das sind jetzt in Summe 17 bzw. sogar nur 15 Decoder zuzüglich CANguru-Bridge. Wir bleiben als unter der Obergrenze und haben noch eine Reserve von 2 Decodern.  
   
 **17.11.2020**  
-Ich habe mehr oder weniger alle Repositories neu geordnet. Vielleicht ist es jetzt etwas übersichtlicher.
+Ich habe mehr oder weniger alle Repositories neu geordnet. Vielleicht ist es jetzt etwas übersichtlicher.  
+Insbesondere habe ich alle aktuellen Versionen in einem neuen Repository zusammengestellt. Weiterhin gibt es eine deutlich einfachere Methode, die OTA-Versionen aufs Board zu laden.  
+Die ursprünglichen Nicht-OTA-Versionen werden nicht mehr weiter entwickelt.
 
 Weiterhin viel Spaß und Erfolg!
 
