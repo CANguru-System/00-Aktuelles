@@ -1,6 +1,16 @@
 # 00-Aktuelles-  
 In dieser Datei werden aktuelle Änderungen und Ergänzungen aufgeschrieben  
 
+   
+**25.12.2020**  
+Alle Module im Repository 10-Aktuelle-OTA-Versionen wurden entschlackt, indem alle gemeinsam genutzten Dateien aus den einzelnen Modulen entfernt und in gemeinsame Ordner verlegt wurden. Das ist hilfreich, wenn Änderungen eingebracht werden, die mehrere Decoder betreffen. Möglicherweise kann man diesen Streamlining-Prozess noch weiter fortführen. Vielleicht mache ich das auch irgendwann.   
+Es ist wichig, die Struktur der Dateien so zu belassen, so dass die gemeinsamen Dateien auch vom PlatformIO gefunden werden.
+  
+**17.11.2020**  
+Ich habe mehr oder weniger alle Repositories neu geordnet. Vielleicht ist es jetzt etwas übersichtlicher.  
+Insbesondere habe ich alle aktuellen Versionen in einem neuen Repository zusammengestellt. Weiterhin gibt es eine deutlich einfachere Methode, die OTA-Versionen aufs Board zu laden.  
+Die ursprünglichen Nicht-OTA-Versionen werden nicht mehr weiter entwickelt.
+  
 **Allgemeines**  
 Seit einiger Zeit bin ich dabei, eine größere Anlage aufzubauen. Ich habe dafür die Anlage Steinheim mit kleinen Änderungen ausgewählt. Die zugehörige Planung konnte man unter "GP3-0090 Märklin C-Gleis-Plan Steinheim 300x230x100cm (DIN A4-Mappe Color)" bei ebay kaufen. Parallel zum Aufbau dieser Anlage werde ich die Decoder auf OTA "umbauen" und dann in diesem repository einstellen.
 Warum baue ich an dieser Anlage?  
@@ -20,15 +30,6 @@ Die beiden Lichtsignaldecoder habe ich in der PCA9685-Variante aufgebaut und kan
 **Lichtdecoder:**       5   
 Mit den 5 Lichtdecodern kann ich 5*16=80 LED ansteuern. Das reicht für viel Lichtbewegung auf der Anlage. 
 Das sind jetzt in Summe 17 bzw. sogar nur 15 Decoder zuzüglich CANguru-Bridge. Wir bleiben als unter der Obergrenze und haben noch eine Reserve von 2 Decodern.  
-  
-**17.11.2020**  
-Ich habe mehr oder weniger alle Repositories neu geordnet. Vielleicht ist es jetzt etwas übersichtlicher.  
-Insbesondere habe ich alle aktuellen Versionen in einem neuen Repository zusammengestellt. Weiterhin gibt es eine deutlich einfachere Methode, die OTA-Versionen aufs Board zu laden.  
-Die ursprünglichen Nicht-OTA-Versionen werden nicht mehr weiter entwickelt.
-  
-**25.12.2020**  
-Alle Module im Repository 10-Aktuelle-OTA-Versionen wurden entschlackt, indem alle gemeinsam genutzten Dateien aus den einzelnen Modulen entfernt und in gemeinsame Ordner verlegt wurden. Das ist hilfreich, wenn Änderungen eingebracht werden, die mehrere Decoder betreffen. Möglicherweise kann man diesen Streamlining-Prozess noch weiter fortführen. Vielleicht mache ich das auch irgendwann.   
-Es ist wichig, die Struktur der Dateien so zu belassen, so dass die gemeinsamen Dateien auch vom PlatformIO gefunden werden.
    
 Weiterhin viel Spaß und Erfolg!
 
