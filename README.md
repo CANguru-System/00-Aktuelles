@@ -25,6 +25,10 @@ Das sind jetzt in Summe 17 bzw. sogar nur 15 Decoder zuzüglich CANguru-Bridge. 
 Ich habe mehr oder weniger alle Repositories neu geordnet. Vielleicht ist es jetzt etwas übersichtlicher.  
 Insbesondere habe ich alle aktuellen Versionen in einem neuen Repository zusammengestellt. Weiterhin gibt es eine deutlich einfachere Methode, die OTA-Versionen aufs Board zu laden.  
 Die ursprünglichen Nicht-OTA-Versionen werden nicht mehr weiter entwickelt.
-
+  
+**25.12.2020**  
+Alle Module im Repository 10-Aktuelle-OTA-Versionen wurden entschlackt, indem alle gemeinsam genutzten Dateien aus den einzelnen Modulen entfernt und in gemeinsame Ordner verlegt wurden. Das ist hilfreich, wenn Änderungen eingebracht werden, die mehrere Decoder betreffen. Möglicherweise kann man diesen Streamlining-Prozess noch weiter fortführen. Vielleicht mache ich das auch irgendwann.   
+Es ist wichig, die Struktur der Dateien so zu belassen, so dass die gemeinsamen Dateien auch vom PlatformIO gefunden werden.
+   
 Weiterhin viel Spaß und Erfolg!
 
