@@ -1,7 +1,9 @@
 # 00-Aktuelles-  
 In dieser Datei werden aktuelle Änderungen und Ergänzungen aufgeschrieben  
-
    
+**29.12.2020**  
+Unter 10-Aktuelle-OTA-Versionenhabe ich einen Maxi-Signaldecoder eingebracht. Damit können 16 Formsignale und 8 LED-Signale gesteuert werden. Dafür wurden 2 Bausteine PCA9685 verwendet. Dieser Decoder ist der erste, der mit dem CANguru-Server durch den Button RESET (unterhalb von OTA) angesprochen werden kann. Dadurch werden die Parameter in diesem Decoder auf Standardwerte zurückgesetzt. Diese Funktion ist insbesondere für Menschen interessant, die an dem Decoder basteln und häufig wieder Standardwerte verwenden müssen.
+       
 **25.12.2020**  
 Alle Module im Repository 10-Aktuelle-OTA-Versionen wurden entschlackt, indem alle gemeinsam genutzten Dateien aus den einzelnen Modulen entfernt und in gemeinsame Ordner verlegt wurden. Das ist hilfreich, wenn Änderungen eingebracht werden, die mehrere Decoder betreffen. Möglicherweise kann man diesen Streamlining-Prozess noch weiter fortführen. Vielleicht mache ich das auch irgendwann.   
 Es ist wichig, die Struktur der Dateien so zu belassen, so dass die gemeinsamen Dateien auch vom PlatformIO gefunden werden.
