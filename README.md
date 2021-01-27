@@ -2,7 +2,7 @@
 In dieser Datei werden aktuelle Änderungen und Ergänzungen aufgeschrieben  
    
 **27.01.2021**  
-Bei der CANguru-Bridge gab es ein LCD, webb kein Decoder angeschlossen ist.    
+Bei der CANguru-Bridge gab es ein Problem, wenn kein Decoder angeschlossen ist.    
    
 **12.01.2021**  
 Bei der CANguru-Bridge gab es durch eine aktualisierte Library ein LCD-Problem. Es wird wieder die alte benutzt.    
