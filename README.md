@@ -1,6 +1,15 @@
 # 00-Aktuelles-  
 In dieser Datei werden aktuelle Änderungen und Ergänzungen aufgeschrieben  
    
+**27.01.2021**  
+Bei der CANguru-Bridge gab es ein LCD, webb kein Decoder angeschlossen ist.    
+   
+**12.01.2021**  
+Bei der CANguru-Bridge gab es durch eine aktualisierte Library ein LCD-Problem. Es wird wieder die alte benutzt.    
+  
+**09.01.2021**  
+Der Maxi-Signaldecoder erscheint nun auch unter diesem Namen im CANguru-Server.    
+  
 **29.12.2020**  
 Unter 10-Aktuelle-OTA-Versionenhabe ich einen Maxi-Signaldecoder eingebracht. Damit können 16 Formsignale und 8 LED-Signale gesteuert werden. Dafür wurden 2 Bausteine PCA9685 verwendet. Dieser Decoder ist der erste, der mit dem CANguru-Server durch den Button RESET (unterhalb von OTA) angesprochen werden kann. Dadurch werden die Parameter in diesem Decoder auf Standardwerte zurückgesetzt. Diese Funktion ist insbesondere für Menschen interessant, die an dem Decoder basteln und häufig wieder Standardwerte verwenden müssen.
        
