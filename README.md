@@ -1,6 +1,9 @@
 # 00-Aktuelles-  
 In dieser Datei werden aktuelle Änderungen und Ergänzungen aufgeschrieben  
    
+**05.02.2021**  
+Noch ein Fehler bei der CANguru-Bridge. Bei WinDigiPet konnte die Zentrale nicht ausgelesen werden. Auch die Dateien im Verzeichnis 01x-CANguru, die in das Verzeichnis C:/CANguru kopiert werden müssen, waren nicht ganz in Ordung.    
+   
 **27.01.2021**  
 Bei der CANguru-Bridge gab es ein Problem, wenn kein Decoder angeschlossen ist.    
    
