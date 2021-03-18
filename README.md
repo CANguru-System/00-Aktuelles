@@ -1,6 +1,12 @@
 # 00-Aktuelles-  
 In dieser Datei werden aktuelle Änderungen und Ergänzungen aufgeschrieben  
    
+**18.03.2021**  
+Diese Änderung betrifft den CANguru-Server und die beiden CANguru-Bridge-Versionen. Wenn Sie diese Änderung anwenden wollen, **müssen** Sie beide (CANguru-Server und CANguru-Bridge) neu einspielen.  
+Was ist anders?  
+Die Verbindung zwischen CANguru-Server und CANguru-Bridge wird nun automatisch hergestellt. Dazu sollten Sie immer zunächst die Bridge zum Laufen bringen und dann den Server. Nach wenigen Augenblicken sind beide verbunden. Anschließend ist alles beim alten.  
+Ansonsten wurde ein Fehler bei der Anmeldung von mfx-Loks behoben. Die Anmeldung ist manchmal etwas fummelig. Probieren Sie einfach verschiedene Einstellungen. Und geben Sie der Lok und der Gleisbox etwas Zeit. Es funktioniert!       
+   
 **05.02.2021**  
 Noch ein Fehler bei der CANguru-Bridge. Bei WinDigiPet konnte die Zentrale nicht ausgelesen werden. Auch die Dateien im Verzeichnis 01x-CANguru, die in das Verzeichnis C:/CANguru kopiert werden müssen, waren nicht ganz in Ordung.    
    
